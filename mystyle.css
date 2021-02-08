@@ -1,0 +1,17 @@
+body {
+	background-color:#2e2e2e;
+}
+
+h1, h2 {
+	font-family: "courier new";
+	color:#009494
+}
+
+ul, p {
+	font-family: "courier new";
+	color: #00d1d1
+} 
+
+a {
+	color: violet;
+}
