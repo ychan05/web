@@ -3,17 +3,8 @@ body {
 }
 
 h1, h2 {
-	font-family: "courier new";
-	color:#009494
-}
-
-ul, p {
-	font-family: "courier new";
-	color: #00d1d1
-} 
-
-a {
-	color: violet;
+	font-family: "Georgia", serif;
+	color:#BB86FC
 }
 
 h2 {
@@ -21,3 +12,14 @@ h2 {
 	border-bottom-color: hotpink;
 	border-width: 2px;
 }
+
+
+ul, p {
+	font-family: "Georgia", serif;
+	color: #03DAC6
+} 
+
+a {
+	color: #CF6679;
+}
+
