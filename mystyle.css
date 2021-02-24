@@ -58,7 +58,9 @@ h1 {
 }
 
 .container {
-	border: thin solid HotPink;
+	border-style: solid;
+	border-width: thin;
+	border-color: hotpink;
 	padding: 50px;
 	display: flex;
 	align-items: center;
