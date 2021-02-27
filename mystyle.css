@@ -55,20 +55,27 @@ h1 {
 
 .home {
 	text-align: center;
+	
+}
+
+.home .homeText {
+	font-size: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .container {
 	border-style: solid;
 	border-width: thin;
 	border-color: hotpink;
-	padding: 50px;
+	padding: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 .image {
@@ -78,6 +85,10 @@ img {
 .text {
 	padding-left: 20px;
 	font-size: 17px;
+}
+
+img {
+	color: #03DAC6;
 }
 
 .topnav .current  {
