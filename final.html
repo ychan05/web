@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+
+<html>
+<html lang="en"> 
+<link href="style.css" rel="stylesheet">
+  <head>
+	  <title>Password Checker and Generator</title>
+  </head>
+
+  <body>
+    <h1>Password Strength Checker and Generator</h1>
+    <h2>Yat Long Chan, Oliver Luo, Samson Wu, Period 4</h2>
+    <hr>
+     
+	<h3>Project Description</h3>
+	<p>This is a program that will check the strength of a password as well as generate a strong password.</p>	
+      
+	<h3>Instructions</h3>
+	<ol>
+		<li>Install the Python program and text files in the same directory.</li>
+		<li>Run the program using a Python IDE.</li>
+		<li>Follow instructions displayed in the console.</li>
+	</ol>
+        
+	<h3>How it works</h3>
+	<p>The password checker part of this program works by using a strike system. The number of strikes determines the strength of the password. The number of strikes build up when the inputted password is run through a series of checks. If the password is less than 12 characters a strike is added. If the password does not contain uppercase letters, lowercase letters, special characters, or numbers a strike is added for each one missing. 0 strikes makes a strong password, 1-2 strikes make a medium password, 3 strikes make a weak password, and 4 or more strikes make a very weak password. There are other checks like if the password uses a dictionary word with numbers or if it is just one character repeating. These other checks will return the other statements that point out the problem with the password. Example of how the password checker works:</p>
+        
+	 <img src="https://i.imgur.com/2fOvpdb.png" alt="Example of Password Checker">
+	 
+	<p>The generator part of this program works by simply appending random characters of all types to an empty list. The length of the list in the end will be the length that the user inputted. This list will be shuffled to create the generated password. The generator will not generate any passwords under the length of 12 or over the length of 100. Example of how password generator works:</p>
+	
+	<img src="https://i.imgur.com/u3LEXzi.png" alt="Example of Password Generator"> 
+	 
+	<h3>Files</h3>
+	<ul>
+	  <li>final.html: This is the html file that contains the documentation of our project</li>
+	  <li>10k-most-common.txt: This file contains a list of the most common words and number combinations.</li>
+	  <li>words_alpha.txt:  This file contains a list of English dictionaries words.</li>
+	  <li>passchecker.py: This is the python program that checks whether your inputted password is strong and generates a random password that is strong. </li>
+	</ul>
+      </li>
+      
+	<h3>Resources</h3>
+	<ul>
+	  <li>Most common passwords: <a href="https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt" target="_blank" rel="noopener noreferrer">https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt</a></li>
+	  <li>English words:  <a href="https://github.com/dwyl/english-words/blob/master/words_alpha.txt " target="_blank" rel="noopener noreferrer">https://github.com/dwyl/english-words/blob/master/words_alpha.txt </a></li>
+	</ul>
+      
+     
+	<h3>Bugs, Errors and Things to be Aware of</h3>
+	<ul>
+	  <li>
+	    The list of words includes singular letters, so typing one letter counts as a dictionary word.
+	  </li>
+	</ul>
+
+
+  </body>
+</html>
